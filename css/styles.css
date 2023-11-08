@@ -92,16 +92,17 @@ img {
     align-items: center;
 }
 .image-button-container2 {
+    display: flex;
     background-image: url(/projetoSenac-main/assets/circuitos.png);
     color: #006b2b;
-    display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     height: 800px;
     
 }
 .image-button-container2 img{
-    width: 15%;
+    width: 11%;
     height: auto;
     
 /* Estilos do Botão "Home" */
@@ -120,7 +121,7 @@ img {
 .content #cursos-button {
     
     background-color: #fff; /* Cor de fundo do botão */
-    padding: 15px 220px; /* Para tornar o botão maior ou menor */
+    padding: 15px 210px; /* Para tornar o botão maior ou menor */
     border: none;
     cursor: pointer;
     border-radius: 15px; /* Adiciona bordas arredondadas */
@@ -134,4 +135,43 @@ img {
     -ms-flex-align:start;
     align-content:baseline;
 
+}
+
+.content #cursos-button-2 {
+    display: block;
+    background-color: #006b2b; 
+    padding: 22px 200px; 
+    border: none;
+    color: #000;
+    cursor: pointer;
+    border-radius: 15px; 
+    font-size: 24px; 
+    font-weight: bold; 
+   
+}
+
+.content #cursos-button-3 {
+    display: block;
+    background-color: #fff;
+    padding: 10px 85px; 
+    border: none;
+    color: #006b2b;
+    cursor: pointer;
+    border-radius: 15px; 
+    font-size: 24px; 
+    font-weight: bold; 
+   
+}
+
+.content #cursos-button-4 {
+    display: block;
+    background-color: #006b2b; 
+    padding: 10px 75px; 
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 15px; 
+    font-size: 24px; 
+    font-weight: bold; 
+   
 }
