@@ -23,10 +23,9 @@ header {
 
 /* Estilos de Links */
 a {
-  color: #fff; /* Cor do texto dos links*/
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #fff;
+  text-decoration: none;
 }
-
 /* Estilos de Barra de Navegação */
 .nav {
   display: flex;
@@ -56,7 +55,7 @@ a {
 
 /* Estilos de Texto e Cores Específicas */
 .green-text {
-  color: #006b2b;
+  color: #128d43;
   font-weight: bold; /* Deixa o texto em negrito */
 }
 
@@ -119,7 +118,7 @@ img {
   margin-bottom: 300px;
 }
 .content #cursos-button {
-  background-color: #232323; /* Cor de fundo do botão */
+  background-color: #ffffff; /* Cor de fundo do botão */
   padding: 15px 210px; /* Para tornar o botão maior ou menor */
   border: none;
   cursor: pointer;
@@ -129,7 +128,7 @@ img {
 }
 
 .content #cursos-button a {
-  color: #006b2b;
+  color: #128d43;
   -ms-flex-align: start;
   align-content: baseline;
 }
@@ -139,7 +138,7 @@ img {
   background-color: #006b2b;
   padding: 22px 200px;
   border: none;
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
   border-radius: 15px;
   font-size: 24px;
@@ -148,10 +147,10 @@ img {
 
 .content #cursos-button-3 {
   display: block;
-  background-color: #232323;
+  background-color: #ffffff;
   padding: 10px 85px;
   border: none;
-  color: #006b2b;
+  color: #128d43;
   cursor: pointer;
   border-radius: 15px;
   font-size: 24px;
@@ -250,14 +249,21 @@ li.navlink.active a {
   grid-template-columns: 500px 500px;
   gap: 10px;
   justify-content: center;
+  border: solid;
+  border-color: #128d43;
+  border-radius: 2.78rem;
+  padding: 0.833rem 2.222rem;
+  border-top: 1rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 .container-aulas #aula-1 {
   border: 0.056rem solid;
-  border-color: transparent;
   border-radius: 2.78rem;
-  color: rgb(255, 255, 255);
   font-weight: bolder;
+  border-color: transparent;
+  color: #128d43;
   line-height: 1.56rem;
   padding: 0.833rem 2.222rem;
   text-align: center;
@@ -265,10 +271,11 @@ li.navlink.active a {
 }
 
 a.aula-link:link {
-  background-color: #006b2b;
+  background-color: #ffffff;
 }
+
 a.aula-link:hover {
-  background-color: #579e75;
+  background-color: #efeaea;
   font-size: 1.02em;
 }
 
@@ -279,5 +286,6 @@ a.aula-link:hover {
   border-radius: 2.78rem;
   line-height: 1.56rem;
   padding: 0.833rem 2.222rem;
-  margin: 10rem;
+  margin: 7rem;
+  color: #fff;
 }
