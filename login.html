@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+         <form>   
+
         <header class="login-header">
             <!-- Cabeçalho da página -->
             <ul class="nav">
@@ -34,13 +36,16 @@
         <main class="login">
             <div>
                 <h1><span>EAD</span>EMY</h1>
-                <img src="assets/LoginIcon.png"></div>
+                <img src="assets/LoginIcon.png">
+            </div>
             <div class="login-inputs">
-                <input class="login-inputs-senha-1" type="text" placeholder="E-MAIL OU MATRÍCULA">
-                <input class="login-inputs-senha-2" type="text" placeholder="SENHA">
-                <button>ENTRAR</button>
-               </div>
+                <input class="login-inputs-senha-1" type="text" placeholder="E-MAIL OU MATRÍCULA" id="login">
+                <input class="login-inputs-senha-2" type="text" placeholder="SENHA" id="senha">
+                <input type="submit" onclick="validaLogin(); return false">
+            </div>
         </main>
+    </form>
+    <script src="main.js"></script>
 </body>
 </html>
 </body>
