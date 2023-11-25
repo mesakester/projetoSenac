@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 
 // Rota de validação de login
 app.post('localhost:8080/login', async (req, res) => {
-    const { username, password } = req.body;
+    const  { username, password } = req.body;
 
     try {
         // Conectar ao banco de dados
