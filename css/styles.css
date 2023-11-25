@@ -250,3 +250,49 @@ li.navlink.active a{
         background-color: transparent;
         transform: translateX(5rem);
     }
+
+  .container-aulas {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        gap: 10px;
+        justify-content: center;
+        border: solid;
+        border-color: #128d43;
+        border-radius: 2.78rem;
+        padding: 0.833rem 2.222rem;
+        border-top: 1rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+      }
+      
+      .container-aulas #aula-1 {
+        border: 0.056rem solid;
+        border-radius: 2.78rem;
+        font-weight: bolder;
+        border-color: transparent;
+        color: #128d43;
+        line-height: 1.56rem;
+        padding: 0.833rem 2.222rem;
+        text-align: center;
+        transition: background-color 0.1s ease 0s, font-size 0.3s ease 0s;
+      }
+      
+      a.aula-link:link {
+        background-color: #ffffff;
+      }
+      
+      a.aula-link:hover {
+        background-color: #efeaea;
+        font-size: 1.02em;
+      }
+      
+      .container-algoritimo {
+        background-color: #2a2a2a;
+        border: 0.056rem solid;
+        border-color: transparent;
+        border-radius: 2.78rem;
+        line-height: 1.56rem;
+        padding: 0.833rem 2.222rem;
+        margin: 7rem;
+        color: #fff;
+      }
