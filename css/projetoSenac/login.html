@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Inclui a biblioteca FontAwesome para ícones -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <form>   
+
+        <header class="login-header">
+            <!-- Cabeçalho da página -->
+            <ul class="nav">
+                <!-- Lista de navegação -->
+                <li class="navlink active"><a href="home.html">INÍCIO</a></li>
+                <!-- Link para a página "Início" (página atual) -->
+                <li class="navlink"><a href="courses.html">CURSOS</a></li>
+                <!-- Link para a página "Cursos" -->
+                <li class="navlink">
+                    <!-- Links com ícones -->
+                    <a href="#">
+                        <!-- ícone de usuário -->
+                        <i class="fas fa-user"></i> LOGIN
+                    </a>
+                    <a href="#">
+                        <!-- ícone de logout -->
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <main class="login">
+            <div>
+                <h1><span>EAD</span>EMY</h1>
+                <img src="assets/LoginIcon.png">
+            </div>
+            <div class="login-inputs">
+                <input class="login-inputs-senha-1" type="text" placeholder="E-MAIL OU MATRÍCULA" id="login">
+                <input class="login-inputs-senha-2" type="text" placeholder="SENHA" id="senha">
+                <input type="submit" onclick="validaLogin(); return false">
+            </div>
+        </main>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
