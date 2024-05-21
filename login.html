@@ -10,13 +10,13 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-         <form>   
+          <form>   
 
         <header class="login-header">
             <!-- Cabeçalho da página -->
             <ul class="nav">
                 <!-- Lista de navegação -->
-                <li class="navlink active"><a href="home.html">INÍCIO</a></li>
+                <li class="navlink"><a href="home.html">INÍCIO</a></li>
                 <!-- Link para a página "Início" (página atual) -->
                 <li class="navlink"><a href="courses.html">CURSOS</a></li>
                 <!-- Link para a página "Cursos" -->
@@ -24,11 +24,11 @@
                     <!-- Links com ícones -->
                     <a href="#">
                         <!-- ícone de usuário -->
-                        <i class="fas fa-user"></i> LOGIN
+                        <i class="fas fa-user " ></i> <strong> LOGIN </strong> 
                     </a>
                     <a href="#">
                         <!-- ícone de logout -->
-                        <i class="fas fa-sign-out-alt"></i>
+                       
                     </a>
                 </li>
             </ul>
@@ -40,12 +40,15 @@
             </div>
             <div class="login-inputs">
                 <input class="login-inputs-senha-1" type="text" placeholder="E-MAIL OU MATRÍCULA" id="login">
-                <input class="login-inputs-senha-2" type="text" placeholder="SENHA" id="senha">
-                <input type="submit" onclick="validaLogin(); return false">
-            </div>
+                
+            <input class="login-inputs-senha-2" type="text" placeholder="SENHA" id="senha">
+            
+            <input class="login-join-button" type="submit"  value="ENTRAR"   valueonclick="validaLogin(); return false">
+       
+        </div>
         </main>
     </form>
-    <script src="main.js"></script>
+    <script src="main.js"></script>   
 </body>
 </html>
 </body>
